@@ -19,7 +19,7 @@ class CatalogoAppBar extends StatelessWidget implements PreferredSizeWidget {
         IconButton(
           icon: Badge(
             label: Text(
-              adicionado.toString(),
+              '$adicionado',
               style: TextStyle(color: Colors.white),
             ),
             child: const Icon(
